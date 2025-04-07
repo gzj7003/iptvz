@@ -22,7 +22,7 @@ case $city_choice in
     1)
         city="Hubei_90"
         stream="rtp/239.69.1.249:11136"
-        channel_key="湖北综合"
+        channel_key="湖北电信"
         ;;
     2)
         city="Zhejiang_120"
