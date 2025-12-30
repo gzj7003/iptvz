@@ -41,7 +41,7 @@ jobs:
       - name: Push To Gitee
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GE_TOKEN }}
+          github_token: ${{ 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 }}
           repository: ${{ secrets.GE_PATH }}
           directory: .
           branch: iptv
@@ -51,7 +51,7 @@ jobs:
       - name: Push To Github
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ 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 }}
           repository: ${{ secrets.GH_PATH }}
           directory: .
           force: true
