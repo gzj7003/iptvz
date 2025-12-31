@@ -36,12 +36,12 @@ jobs:
           git config --local user.name "GitHub Action"
           git add .
           git commit -m "更新组播源"
-          git push
+#          git push
 
       - name: Push To Github
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ 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 }}
+          github_token: ${{ secrets.GH_TOKEN }}
           repository: ${{ secrets.GH_PATH }}
           directory: .
           force: true
